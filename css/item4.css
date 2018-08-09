@@ -1,0 +1,581 @@
+@import "base.css";
+.header{
+    height: 70px;
+    width: 100%;
+    background: #FFF;
+    position: relative;
+    z-index: 999999;
+    border-bottom: 1px solid #EEE;
+}
+.header .nav{
+    width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+}
+.header .nav .logo{
+    display: block;
+    width: 205px;
+    height: 40px;
+    float: left;
+    margin-top: 15px;
+    position: relative;
+}
+.header .nav .logo img{
+    width: 190px;
+    height: 39px;
+}
+.header .nav ul{
+    width: 619px;
+    height: 70px;
+    float: left;
+    margin-left: 50px;
+    position: relative;
+}
+.header .nav ul li{
+    width: 120px;
+    height: 70px;
+    position: relative;
+    float: left;
+}
+.header .nav ul .start:hover::before{
+    width: 70px;
+    height: 3px;
+    background: #2771FA;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+} 
+.header .nav ul .end:hover::before{
+    width: 70px;
+    height: 3px;
+    background: #2771FA;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+} 
+.header .nav ul li:first-child:hover::before,.header .nav ul li:nth-child(2):hover::before,.header .nav ul li:nth-child(3):hover::before,.header .nav ul li:nth-child(4):hover::after,.header .nav ul li:nth-child(5):hover::before{
+    width: 120px;
+    height: 3px;
+    background: #2771FA;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+}
+.header .nav ul li a{
+    display: block;
+    width: 64px;
+    height: 70px;
+    line-height: 70px;
+    color: #333;
+    font-size: 16px;
+    border-left: 1px solid #EEE;
+    padding: 0 33px 0 22px;
+    position: relative;
+}
+.header .nav ul li a i{
+    font-style: normal;
+    position: absolute;
+    display: block;
+    right: 15px;
+    top: 33px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #333 #fff #fff;
+    transition: all 0.2s;
+}
+.header .nav ul li:nth-of-type(4)::after{
+    width: 120px;
+    height: 3px;
+    background: #2771FA;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0; 
+}
+.header .nav ul .end{
+    width: 69px;
+    height: 70px;
+    position: relative;
+    float: left;
+}
+.header .nav ul .end a{
+    float: left;
+    width: 32px;
+    height: 70px;
+    line-height: 70px;
+    color: #333;
+    font-size: 16px;
+    padding: 0 18px 0 18px;
+    border-right: 1px solid #EEE;
+} 
+.header .nav ul li .item{
+    width: 118px;
+    height: 0;
+    position: absolute;
+    top: 69px;
+    left: 1px;
+    overflow: hidden;
+    border: 1px solid #EEE;
+    transition: all 0.5s;
+}
+.header .nav ul li .item div{
+    text-align: center;
+    display: block;
+    background: #FFF;
+    height: 30px;
+}
+.header .nav ul li .item div a{
+    padding: 0 0 0 22px;
+    width: 96px;
+    color: #555;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    text-align: left;
+    border: none;
+}
+.header .nav ul .end:hover a{
+   color: #2771FA;
+} 
+.header .nav ul .end a:hover::before{
+    width: 70px;
+    height: 3px;
+    background: #2771FA;
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+}
+.header .nav ul .start{
+    width: 69px;
+    height: 70px;
+    float: left;
+}
+.header .nav ul .start a{
+    float: left;
+    width: 32px;
+    height: 70px;
+    line-height: 70px;
+    color: #333;
+    font-size: 16px;
+    padding: 0 18px 0 18px;
+    position: relative;
+    border-left: 1px solid #EEE;
+}
+.header .nav ul li a:hover span{
+    color: #2771FA;
+}
+.header .nav ul li a:hover i{
+    border-color: #2771FA #fff #fff;
+    transform: rotate(180deg);
+}
+
+.header .nav .tool{
+    width: 301px;
+    height: 48px;
+    float: right;
+    margin-top: 10px;
+    position: relative;
+}
+.header .nav .tool .qiye{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    width: 48px;
+    height: 48px;
+    background: url("../img/index/logo/ic_qiye.png") no-repeat 0 0;
+}
+.header .nav .tool .qiye:hover{
+    background-position: 0 -48px;
+}
+.header .nav .tool .phone{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    width: 48px;
+    height: 48px;
+    background: url("../img/index/logo/ic_block.png") no-repeat -48px 0;
+}
+.header .nav .tool .phone:hover{
+    background-position: -48px -48px;
+}
+.header .nav .tool .MAC{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    width: 48px;
+    height: 48px;
+    background: url("../img/index/logo/ic_block.png") no-repeat 0 0;
+}
+.header .nav .tool .MAC:hover{
+    background-position: 0 -48px;
+}
+.header .nav .tool .nologin{
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    float: right;
+}
+.header .nav .tool .nologin span{
+    font: 14px/1.5 \5FAE\8F6F\96C5\9ED1, Tahoma;
+    color: #2771FA;
+}
+.header .nav .tool .nologin:hover span{
+    text-decoration: underline;
+}
+.main{
+    clear: both;
+    margin: 0 auto 10px;
+    width: 1000px;
+    height: 922px;
+    color: #373737;
+    /*background: #00D573;*/
+}
+.main .m-top{
+    height: 225px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px #479ceb;
+}
+.main .m-top .banner{
+    float: left;
+    display: inline;
+    width: 675px;
+    height: 225px;
+    position: relative;
+}
+.main .m-top .banner .bg{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+.main .m-top .banner .banner-btn{
+    width: 65px;
+    height: 11px;
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+    z-index: 102;
+}
+.main .m-top .banner .banner-btn span{
+    /*display: inline-block;*/
+    background: url("../img/item4/banner/icon.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 11px;
+    padding: 0 5px;
+    width: 3px;
+}
+.main .m-top .banner .banner-btn span:hover{
+    background: url("../img/item4/banner/icon_on.png") no-repeat scroll 0 0 transparent;
+}
+.main .m-top .aside{
+    width: 307px;
+    height: 255px;
+    float: right;
+}
+.main .m-top .aside .userinfo{
+    width: 305px;
+    height: 188px;
+    border: solid 1px #dbdbdb;
+    color: #373737;
+    padding: 20px 0 15px;
+}
+.main .m-top .aside .userinfo .u_login{
+    padding: 0 15px;
+    width: 275px;
+    height: 118px;
+}
+.main .m-top .aside .userinfo .u_login .unlogin{
+    padding: 0 15px;
+}
+.main .m-top .aside .userinfo .u_login .unlogin .unlogin_login_a{
+    background: url("../img/item4/banner/btns.png") no-repeat scroll 0 0 transparent;
+    width: 169px;
+    height: 36px;
+    display: block;
+    font-size: 16px;
+    color: #373737;
+    text-align: center;
+    line-height: 36px;
+}
+.main .m-top .aside .userinfo .u_login .unlogin .unlogin_help{
+    font-size: 12px;
+    padding-top: 10px;
+}
+.main .m-top .aside .userinfo .u_login .unlogin .unlogin_help ol li a{
+    color: #373737;;
+}
+.main .m-top .aside .userinfo .u_login .unlogin .unlogin_help ol li a:hover{
+    text-decoration: underline;
+}
+.main .m-top .aside .userinfo .download_info{
+    padding: 20px 15px 0;
+    position: relative;
+    height: 49px;
+    width: 275px;
+}
+.main .m-top .aside .userinfo .download_info span{
+    left: 195px;
+    position: absolute;
+    top: 23px;
+    font: 14px/1.5 \5FAE\8F6F\96C5\9ED1, Tahoma;
+}
+.main .m-top .aside .userinfo .download_info p{
+    font-size: 12px;
+    left: 195px;
+    position: absolute;
+    top: 45px;
+}
+.main .m-top .aside .userinfo .download_info p a{
+    color: #2771fa;
+}
+.main .m-top .aside .userinfo .download_info p a:hover{
+    text-decoration: underline;
+}
+.main .m-top .aside .userinfo .download_info .download{
+    background: url("../img/item4/banner/download_btn.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 49px;
+    left: 15px;
+    position: absolute;
+    top: 20px;
+    width: 169px;
+}
+.main .m-top .aside .userinfo .download_info .download:hover{
+    background-position: -186px 0;
+}
+.main .m-top .aside .userinfo .download_info .exper{
+    border: 1px solid #DBDBDB;
+    bottom: -44px;
+    display: block;
+    font-size: 12px;
+    height: 20px;
+    left: -1px;
+    line-height: 20px;
+    padding-left: 15px;
+    position: absolute;
+    width: 290px;
+}
+.main .m-top .aside .userinfo .download_info .exper a{
+    color: #FA8E1A;
+    font-weight: bold;
+}
+.main .m-top .aside .userinfo .download_info .exper a:hover{
+    text-decoration: underline;
+}
+.main .m-top .aside .userinfo .download_info .exper s{
+    background: url("../img/item4/common.png") no-repeat scroll 0 -27px transparent;
+    height: 9px;
+    left: 170px;
+    position: absolute;
+    top: 3px;
+    width: 20px;
+}
+.main .giftpanel{
+    padding: 10px 0 10px;
+    border-bottom: 1px solid #479CEB;
+}
+.main .giftpanel .title{
+    height: 25px;
+    line-height: 25px;
+}
+.main .giftpanel .title h3{
+    font-size: 14px;
+    float: left;
+    font-weight: normal;
+}
+.main .giftpanel .title h3 b{
+    font-size: 17px;
+    color: #479CEB;
+    padding-right: 15px;
+}
+.main .giftpanel .title span a{
+    color: #555;
+    float: right;
+    font: 14px/1.5 \5FAE\8F6F\96C5\9ED1, Tahoma;
+}
+.main .giftpanel .title span a:hover{
+    color: #2771fa;
+    text-decoration: underline;
+}
+.main .giftpanel .pcontent{
+    margin-top: 10px;
+    height: 390px;
+}
+.main .giftpanel .pcontent .l_bimg{
+    float: left;
+    width: 264px;
+    height: 390px;
+    text-align: center;
+}
+.main .giftpanel .pcontent .l_bimg a{
+    color: #373737;
+    font: 14px/1.5 \5FAE\8F6F\96C5\9ED1, Tahoma;
+}
+.main .giftpanel .pcontent .l_bimg a:hover{
+    color: #2771fa;
+    text-decoration: underline;
+}
+.main .giftpanel .pcontent .r_limg{
+    float: right;
+    width: 736px;
+}
+.main .giftpanel .pcontent .r_limg ul li{
+    width: 345px;
+    height: 185px;
+    float: left;
+    padding-left: 22px;
+    padding-bottom: 19px;
+    text-align: center;
+}
+.main .giftpanel .pcontent .r_limg ul li a{
+    color: #373737;
+    font: 14px/1.5 \5FAE\8F6F\96C5\9ED1, Tahoma;
+}
+.main .giftpanel .pcontent .r_limg ul li a:hover{
+    color: #2771fa;
+    text-decoration: underline;
+}
+.main .actpanel{
+    width: 1000px;
+    height: 200px;
+    padding: 10px 0;
+    border: none;
+}
+.main .actpanel .title{
+    height: 25px;
+    line-height: 25px;
+}
+.main .actpanel .title h3{
+    font-size: 14px;
+    float: left;
+    font-weight: normal;
+}
+.main .actpanel .title h3 b{
+    font-size: 17px;
+    color: #479CEB;
+    padding-right: 15px;
+}
+.main .actpanel .title span{
+    float: right;
+}
+.main .actpanel .title span a{
+    color: #555;
+    font: 14px/1.5 \5FAE\8F6F\96C5\9ED1, Tahoma;
+}
+.main .actpanel .title span a:hover{
+    color: #2771fa;
+    text-decoration: underline;
+}
+.main .actpanel .actcontent{
+    margin-top: 10px;
+    height: 165px;
+}
+.main .actpanel .actcontent ul li{
+    width: 320px;
+    height: 165px;
+    float: left;
+    text-align: center;
+}
+.main .actpanel .actcontent ul li a{
+    color: #373737;
+    font: 14px/1.5 \5FAE\8F6F\96C5\9ED1, Tahoma;
+}
+.main .actpanel .actcontent ul li a:hover{
+    color: #2771fa;
+    text-decoration: underline;
+}
+.main .actpanel .actcontent ul li:nth-child(2),.main .actpanel .actcontent ul li:nth-child(3){
+    width: 320px;
+    height: 165px;
+    float: left;
+    padding-left: 20px;
+    text-align: center;
+}
+.pcmgrblog{
+    width: 1000px;
+    margin: 15px auto;
+    height: 30px;
+}
+.pcmgrblog span{
+    color: #B5B5B5;
+    float: left;
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 20px;
+}
+.pcmgrblog .weibo1{
+    width: 146px;
+    display: block;
+    position: relative;
+    float: left;
+    color: #373737;
+    font: 14px/1.5 \5FAE\8F6F\96C5\9ED1, Tahoma;
+}
+.pcmgrblog .weibo1:hover{
+    color: #2771fa;
+    text-decoration: underline;
+}
+.pcmgrblog .weibo2{
+    display: block;
+    position: relative;
+    float: left;
+    color: #373737;
+    font: 14px/1.5 \5FAE\8F6F\96C5\9ED1, Tahoma;
+}
+.pcmgrblog .weibo2:hover{
+    color: #2771fa;
+    text-decoration: underline;
+}
+.pcmgrblog .weibo1 i{
+    background: url("../img/item4/set.png") 0 -97px no-repeat scroll transparent;
+    /*display: inline-block;*/
+    float: left;
+    display: block;
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+}
+.pcmgrblog .weibo2 i{
+    background: url("../img/item4/set.png") 0 -124px ;
+    float: left;
+    display: block;
+    height: 24px;
+    width: 24px;
+    padding-left: 5px;
+    margin-right: 8px;
+}
+.footer{
+    width: 100%;
+    height: 42px;
+    font-size: 12px;
+    line-height: 1.8em;
+    text-align: center;
+    padding: 15px 0;
+    background: #f6f6f6;
+}
+.footer p a{
+    color: #565656;
+    padding: 0 10px;
+    font-size: 12px;
+}
+.footer p a:hover{
+    text-decoration: underline;
+}
+.footer .copyright{
+    color: #9E9E9E;
+    font-size: 12px;
+}

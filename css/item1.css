@@ -1,0 +1,315 @@
+@import "base.css";
+.banner{
+    width: 100%;
+    height: 600px;
+}
+.banner .wrap{
+    width: 1349px;
+    height: 600px;
+    margin: 0 auto;
+    background: #3C0FD1;
+    position: relative;
+}
+.banner .wrap .top{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: -600px;
+    margin-top: 1%;
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+.banner .wrap .top .logo{
+    float: left;
+    width: 202px;
+    height: 47px;
+    background: url("../img/item1/logo/logo.png") no-repeat;
+}
+.banner .wrap .top .link{
+    float: right;
+    color: #FFF;
+}
+.banner .wrap .top .link a{
+    color: #FFF;
+    font-size: 14px;
+    margin: 0 10px;
+}
+.banner .wrap .showVideo{
+    display: block;
+    width: 122px;
+    height: 23px;
+    background: url("../img/item1/video-bf.png") no-repeat;
+    margin: -11px 0 0 -61px;
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    z-index: 999;
+}
+.banner .wrap .name{
+    color: #dadada;
+    font-size: 25px;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    top: 14%;
+    left: 0;
+}
+.banner .wrap .banner-btn{
+    position: absolute;
+    width: 100px;
+    height: 8px;
+    margin-left: -31px;
+    bottom: 8%;
+    left: 50%;
+    z-index: 100;
+}
+.banner .wrap .banner-btn span{
+    display: block;
+    width: 20px;
+    height: 8px;
+    margin: 0 6px;
+    float: left;
+    background: url("../img/item1/dot.png") 0 -8px;
+}
+.banner .wrap .banner-btn span:hover{
+    background-position: 0 0;
+}
+.banner .wrap .download_btn{
+    display: block;
+    width: 248px;
+    height: 72px;
+    margin: -36px 0 0 -124px;
+    background: url("../img/item1/download_btn.png") no-repeat;
+    position: absolute;
+    left: 50%;
+    bottom: 12%;
+    z-index: 100;
+}
+.banner .wrap .banner_wrap{
+    width: 1312px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+}
+.banner .wrap .banner_wrap .bg{
+    width: 1312px;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+.banner .wrap .banner_wrap .bg img{
+    width: 1312px;
+    height: auto;
+}
+.banner .wrap .godown{
+    width: 105px;
+    padding-left: 20px;
+    position: absolute;
+    margin-left: -62px;
+    left: 50%;
+    bottom: 2%;
+    color: #9e9ee6;
+    font-size: 12px;
+    background: url("../img/item1/banner/aro-.png") left center no-repeat;
+    cursor: pointer;
+    z-index: 100;
+}
+.update_log{
+    width: 100%;
+    height: 2442px;
+    background-color: #f6f6f6;;
+    padding-top: 69px;
+}
+.update_log .mid{
+    width: 1150px;
+    height: 2442px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 0 0 0 50px;
+    overflow: hidden;
+}
+.update_log .mid .title{
+    color: #445e8d;
+}
+.update_log .mid .title .large{
+    font-size: 48px;
+    text-align: center;
+    padding-top: 35px;
+    margin-left: -53px;
+}
+.update_log .mid .title .small{
+    font-size: 18px;
+    text-align: center;
+    padding-right: 53px;
+    margin-left: -53px;
+}
+.update_log .mid .title .small a{
+    float: right;
+    font-size: 14px;
+    color: #12a8ff;
+}
+.update_log .mid .title .small span{
+    padding-left: 150px;
+}
+.update_log .mid .title .sub_title{
+    color: #445e8d;
+    font-size: 30px;
+    padding: 35px 0 25px 63px;
+    background: url("../img/item1/main-box/sub-title.png") no-repeat 0 28px;
+    border-bottom: 1px solid #d2d8e1;
+}
+.update_log .mid .main{
+    margin-top: 40px;
+    width: 1150px;
+    height: 1839px;
+}
+.update_log .mid .main .outer_ul .outer_li{
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #687ca2;
+}
+.update_log .mid .main .outer_ul .outer_li p{
+    font-size: 18px;
+    padding: 54px 0 22px 0;
+    font-weight: bold;
+}
+.update_log .mid .main .outer_ul .outer_li ul li{
+    color: #687ca2;
+    background: url("../img/item1/main-box/inner-li-style.png") no-repeat 0 8px;
+    padding-left: 13px;
+}
+.update_log .mid .main .outer_ul .outer_li img {
+    padding-top: 12px;
+}
+.update_log .mid .main .outer_ul .collapse{
+    color: #687ca2;
+}
+.update_log .mid .main .outer_ul .collapse li .title{
+    font-size: 18px;
+    padding: 54px 0 22px 0;
+    font-weight: bold;
+}
+.update_log .mid .main .outer_ul .collapse li .neirong{
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.update_log .mid .comments{
+    color: #445e8d;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.update_log .mid .comments .sub_title{
+    color: #445e8d;
+    font-size: 30px;
+    padding: 35px 0 25px 63px;
+}
+.update_log .mid .comments .comm li{
+    font-size: 14px;
+    padding: 27px 0 10px 34px;
+    list-style: none;
+    color: #566c95;
+    background-size: 26px 26px;
+}
+.bottom{
+    width: 100%;
+    height: 367px;
+    background: #3C0FD1;
+}
+.bottom .dowm{
+    width: 1349px;
+    margin: 0 auto;
+    height: 367px;
+    position: relative;
+}
+.bottom .dowm .footer{
+    display: block;
+    width: 1312px;
+    height: auto;
+    margin: 0 auto;
+}
+.bottom .dowm .footer img{
+    width: 1312px;
+    height: auto;
+}
+.bottom .dowm .download a{
+    display: block;
+    width: 248px;
+    height: 36px;
+    margin: -36px 0 0 -124px;
+    background: url("../img/item1/download3.png") no-repeat;
+    position: absolute;
+    left: 55%;
+    bottom: 106px;
+}
+.bottom .dowm .download a:hover{
+    background-position: 0 -38px;
+}
+.bottom .dowm .footer-link{
+    height: 42px;
+    font-size: 12px;
+    line-height: 1.8em;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    padding: 15px 0;
+}
+.bottom .dowm .footer-link p a{
+    color: #9E9E9E;
+    padding: 0 10px;
+    font-size: 12px;
+}
+.bottom .dowm .footer-link p a:hover{
+    text-decoration: underline;
+}
+.bottom .dowm .footer-link .copyright{
+    color: #9E9E9E;
+    font-size: 12px;
+}
+.header{
+    width: 100%;
+    height: 77px;
+    position: fixed;
+    top: -77px;
+    left: 0;
+    z-index: 999;
+    background: #fff;
+    opacity: 0.9;
+}
+.header .content{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header .left{
+    float: left;
+    padding: 15px 0;
+    overflow: hidden;
+}
+.header .left a{
+    background: url("../img/item1/download3.png") 0 0 no-repeat;
+    width: 120px;
+    height: 38px;
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+.header .right{
+     float: right;
+     padding: 26px 0;
+     overflow: hidden;
+}
+.header .right li{
+    float: left;
+    list-style: none;
+    margin: 0px 4px;
+}
+.header .right li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+}

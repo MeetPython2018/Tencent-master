@@ -1,0 +1,350 @@
+@import url("base.css");
+.banner{
+    width: 100%;
+    /*height: 919px;*/
+    height: auto;
+    background: #3B06C3;
+}
+.banner .header{
+    width: 1200px;
+    height: 58px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner .header .top-icon{
+    width: 147px;
+    height: 39px;
+    position: absolute;
+    left: 0px;
+    top: 18px;
+}
+.banner .header .top-icon .logo img{
+    width: 147px;
+    height: 38px;
+}
+.banner .header .top-link{
+    position: absolute;
+    top: 18px;
+    right: 0px;
+    color: #e6e6e6;
+}
+.banner .header .top-link a{
+    color: #e6e6e6;
+    font-size: 12px;
+    margin: 0 16px;
+}
+.banner .top-img{
+    width: 1200px;
+    height: auto;
+    /*height: 700px;*/
+    margin: 0 auto;
+}
+.banner .img-box{
+    width: 1200px;
+    height: 521px;
+    position: relative;
+}
+.banner .img-box img{
+    width: 1200px;
+    height: 521px;
+}
+.banner .top-img .img-box .dowmload{
+    width: 310px;
+    height: 119px;
+    position: absolute;
+    bottom: 5px;
+    left: 44%;
+}
+.banner .top-img .dowmload img{
+    width: 130px;
+    height: 50px;
+}
+.banner1{
+    width: 100%;
+    /*height: auto;*/
+    height: 600px;
+    background: #F6F6F6;
+}
+.banner1 .section{
+    /*width: 1200px;*/
+    width: 1349px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+
+}
+.banner1 .section .bg{
+    /*width: 1200px;*/
+    width: 100%;
+    height: 521px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.banner1 .section .img-box{
+    width: 70px;
+    height: auto;
+    /*background: yellow;*/
+    position: absolute;
+    top: 170px;
+    left: 280px;
+}
+.banner1 .section .img-box img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+}
+.banner1 .section .icon{
+    /*width: 465px;
+    height: 275px;*/
+    width: 595px;
+    height: 350px;
+    position: absolute;
+    top: 140px;
+    right: 210px;
+}
+.banner2{
+    width: 100%;
+    height: 550px;
+    background: #fff;
+}
+.banner2 .section{
+    width: 1349px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.banner2 .section .bg{
+    /*width: 1200px;*/
+    width: 100%;
+    height: 521px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.banner2 .section .icon{
+    width: 595px;
+    height: 350px;
+    position: absolute;
+    top: 140px;
+    left: 160px;
+}
+.banner2 .section .img-box{
+    width: 220px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    right: 290px;
+}
+.banner2 .section .img-box img:first-of-type{
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.banner2 .section .img-box img:nth-of-type(2){
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 80px;
+    top: 10px;
+}
+.banner2 .section .img-box img:nth-of-type(3){
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 160px;
+    top: 8px;
+}
+.banner2 .section .img-box img:nth-of-type(4){
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+.banner2 .section .img-box img:nth-of-type(5){
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 80px;
+    bottom: 30px;
+}
+.banner2 .section .img-box img:nth-of-type(6){
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 160px;
+    bottom: 30px;
+}
+.banner3{
+    width: 100%;
+    height: 550px;
+    background: #F6F6F6;
+    overflow-x:hidden
+}
+.banner3 .section{
+    width: 1349px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.banner3 .section .bg{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.banner3 .section .icon{
+    width: 595px;
+    height: 350px;
+    position: absolute;
+    top: 165px;
+    right: 200px;
+}
+.banner4{
+    width: 100%;
+    height: 550px;
+    background: #fff;
+}
+.banner4 .section{
+    width: 1349px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.banner4 .section .bg{
+    width: 100%;
+    /*height: 521px;*/
+}
+.banner4 .section .icon{
+    width: 595px;
+    height: 350px;
+    position: absolute;
+    top: 140px;
+    left: 160px;
+}
+.banner4 .section .img-box{
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    right: 290px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    top: 180px;
+}
+.banner4 .section .img-box img{
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+}
+.banner5{
+    width: 100%;
+    height: 670px;
+    background: #fff;
+}
+.banner5 .section{
+    width: 1349px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.banner5 .section .bg{
+    width: 100%;
+    height: auto;
+}
+.banner5 .section .icon{
+    width: 680px;
+    height: 400px;
+    position: absolute;
+    top: 160px;
+    left: 24%;
+}
+.banner6{
+    width: 100%;
+    height: 550px;
+    background: #fff;
+}
+.banner6 .section{
+    width: 1349px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.banner6 .section .bg{
+    width: 100%;
+    height: 521px;
+}
+.banner6 .section .icon{
+    width: 646px;
+    height: 380px;
+    position: absolute;
+    bottom: 100px;
+    right: 160px;
+}
+.banner6 .section .img-box{
+    width: 70px;
+    height: auto;
+    position: absolute;
+    top: 185px;
+    left: 300px;
+}
+.banner6 .section .img-box img{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+.footer{
+    width: 100%;
+    height: 365px;
+    background: #3413C1;
+}
+.footer .section{
+    width: 1349px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.footer .section .bg{
+    width: 100%;
+    height: auto;
+}
+.footer .section .icon{
+    width: 195px;
+    height: 75px;
+    position: absolute;
+    top: 200px;
+    left: 42%;
+}
+.footer .section .links{
+    width: 320px;
+    height: 40px;
+    position: absolute;
+    left: 38%;
+    bottom: 50px;
+    /*background: yellow;*/
+    color: #fff;
+    font-size: 12px;
+}
+.footer .section .links .items{
+    padding-left: 40px;
+}
+.footer .section .links p a{
+    line-height: 1.8em;
+    margin: 0!important;
+    color: #fff;
+    text-align: center;
+}
+.footer .section .links p a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,505 @@
+@import url("base.css");
+.header{
+    height: 70px;
+    width: 100%;
+    background: #FFF;
+    position: relative;
+    z-index: 999999;
+    border-bottom: 1px solid #EEE;
+}
+.header .nav{
+    width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+}
+.header .nav .logo{
+    display: block;
+    width: 205px;
+    height: 40px;
+    float: left;
+    margin-top: 15px;
+    position: relative;
+}
+.header .nav .logo img{
+    width: 190px;
+    height: 39px;
+}
+.header .nav ul{
+    width: 619px;
+    height: 70px;
+    float: left;
+    margin-left: 50px;
+    position: relative;
+}
+.header .nav ul li{
+    width: 120px;
+    height: 70px;
+    position: relative;
+    float: left;
+}
+.header .nav ul .start:hover::before{
+    width: 70px;
+    height: 3px;
+    background: #2771FA;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+}
+.header .nav ul li:nth-of-type(2)::before{
+    width: 120px;
+    height: 3px;
+    background: #2771FA;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0; 
+}
+.header .nav ul .end:hover::before{
+    width: 70px;
+    height: 3px;
+    background: #2771FA;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+} 
+.header .nav ul li:first-child:hover::before,.header .nav ul li:nth-child(2):hover::before,.header .nav ul li:nth-child(3):hover::before,.header .nav ul li:nth-child(4):hover::after,.header .nav ul li:nth-child(5):hover::before{
+    width: 120px;
+    height: 3px;
+    background: #2771FA;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+}
+.header .nav ul li a{
+    display: block;
+    width: 64px;
+    height: 70px;
+    line-height: 70px;
+    color: #333;
+    font-size: 16px;
+    border-left: 1px solid #EEE;
+    padding: 0 33px 0 22px;
+    position: relative;
+}
+.header .nav ul li a i{
+    font-style: normal;
+    position: absolute;
+    display: block;
+    right: 15px;
+    top: 33px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #333 #fff #fff;
+    transition: all 0.2s;
+}
+.header .nav ul .end{
+    width: 69px;
+    height: 70px;
+    position: relative;
+    float: left;
+}
+.header .nav ul .end a{
+    float: left;
+    width: 32px;
+    height: 70px;
+    line-height: 70px;
+    color: #333;
+    font-size: 16px;
+    padding: 0 18px 0 18px;
+    border-right: 1px solid #EEE;
+} 
+.header .nav ul li .item{
+    width: 118px;
+    height: 0;
+    position: absolute;
+    top: 69px;
+    left: 1px;
+    overflow: hidden;
+    border: 1px solid #EEE;
+    transition: all 0.5s;
+}
+.header .nav ul li .item div{
+    text-align: center;
+    display: block;
+    background: #FFF;
+    height: 30px;
+}
+.header .nav ul li .item div a{
+    padding: 0 0 0 22px;
+    width: 96px;
+    color: #555;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    text-align: left;
+    border: none;
+}
+.header .nav ul .end:hover a{
+   color: #2771FA;
+} 
+.header .nav ul .end a:hover::before{
+    width: 70px;
+    height: 3px;
+    background: #2771FA;
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+}
+.header .nav ul .start{
+    width: 69px;
+    height: 70px;
+    float: left;
+}
+.header .nav ul .start a{
+    float: left;
+    width: 32px;
+    height: 70px;
+    line-height: 70px;
+    color: #333;
+    font-size: 16px;
+    padding: 0 18px 0 18px;
+    position: relative;
+    border-left: 1px solid #EEE;
+}
+.header .nav ul li a:hover span{
+    color: #2771FA;
+}
+.header .nav ul li a:hover i{
+    border-color: #2771FA #fff #fff;
+    transform: rotate(180deg);
+}
+.header .nav .tool{
+    width: 301px;
+    height: 48px;
+    float: right;
+    margin-top: 10px;
+    position: relative;
+}
+.header .nav .tool .qiye{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    width: 48px;
+    height: 48px;
+    background: url("../img/index/logo/ic_qiye.png") no-repeat 0 0;
+}
+.header .nav .tool .qiye:hover{
+    background-position: 0 -48px;
+}
+.header .nav .tool .phone{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    width: 48px;
+    height: 48px;
+    background: url("../img/index/logo/ic_block.png") no-repeat -48px 0;
+}
+.header .nav .tool .phone:hover{
+    background-position: -48px -48px;
+}
+.header .nav .tool .MAC{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    width: 48px;
+    height: 48px;
+    background: url("../img/index/logo/ic_block.png") no-repeat 0 0;
+}
+.header .nav .tool .MAC:hover{
+    background-position: 0 -48px;
+}
+.header .nav .tool .nologin{
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    float: right;
+}
+.header .nav .tool .nologin span{
+    font: 14px/1.5 \5FAE\8F6F\96C5\9ED1, Tahoma;
+    color: #2771FA;
+}
+.header .nav .tool .nologin:hover span{
+    text-decoration: underline;
+}
+.news-box{
+    width: 1000px;
+    height: 2161px;
+    margin: -40px auto 0 auto;
+    overflow: hidden;
+}
+.news-box .main{
+    width: 675px;
+    height: 2161px;
+    /*background: red;*/
+    float: left;
+    position: relative;
+    z-index: 100;
+}
+.news-box .main .news_info h1{
+    font-size: 26px;
+    margin: 15px auto;
+    font-weight: normal;
+}
+.news-box .main .news_info .bsinfo{
+    font-size: 12px;
+    color: #96919d;
+    height: 30px;
+    line-height: 24px;
+}
+.news-box .main .news_info .bsinfo .ll{
+    float: left;
+}
+.news-box .main .news_info .bsinfo .ll span{
+    margin-right: 10px;
+}
+.news-box .main .news_info .bsinfo .share_top{
+    float: left;
+    position: relative;
+    margin-left: 15px;
+}
+.news-box .main .news_info .bsinfo .share_top a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 72px;
+    height: 22px;
+    line-height: 22px;
+    color: #373737;
+    /*background: #FFF;*/
+    text-indent: 8px;
+    cursor: pointer;
+}
+.news-box .main .news_info .bsinfo .share_top a i{
+    position: absolute;
+    right: 5px;
+    top: 9px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #8b8c8e #fff #fff;
+}
+.news-box .main .news_sub{
+    height: 40px;
+    line-height: 140px;
+    border-bottom: 1px solid #479ceb;
+    overflow: hidden;
+}
+.news-box .main .news_info .content{
+    width: 675px;
+    height: 1875px;
+    font: 14px/1.5 \5FAE\8F6F\96C5\9ED1, Tahoma;
+    color: #373737;
+}
+.news-box .main .news_info .content .desc{
+    margin: 15px 0;
+    padding: 10px;
+    background: #F6FAFD;
+    text-indent: 2em;
+    border: 1px solid #E1E1E1;
+}
+.news-box .main .news_info .content .news_content{
+    width: 675px;
+    height: 1774px;
+}
+.news-box .main .news_info .content .news_content p{
+    margin: 1em auto;
+    text-indent: 2em;
+    font-size: 16px;
+}
+.news-box .main .news_info .news_bar{
+    border-bottom: 1px solid #e1e1e1;
+    padding: 25px 0;
+    overflow: hidden;
+    zoom: 1;
+    font: 14px/1.5 \5FAE\8F6F\96C5\9ED1, Tahoma;
+    color: #373737;
+}
+.news-box .main .news_info .news_bar .context{
+    width: 400px;
+    float: left;
+}
+.news-box .main .news_info .news_bar .context ul a{
+    color: #373737;
+}
+.news-box .main .news_info .news_bar .context ul a:hover{
+    color: #2771fa;
+    text-decoration: underline;
+}
+.news-box .main .news_info .news_bar .share_bar{
+    float: left;
+    width: 259px;
+    height: 24px;
+    margin-top: 40px;
+}
+.news-box .main .news_info .news_bar .share_bar span{
+    float: left;
+}
+.news-box .main .news_info .news_bar .share_bar a{
+    display: block;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    cursor: pointer;
+    background: url("../img/details/share_icon2.png") 0 0 no-repeat;
+}
+.news-box .side{
+    width: 300px;
+    height: 800px;
+    float: right;
+    padding-top: 40px;
+}
+.news-box .side .download_info{
+    border: 1px solid #dbdbdb;
+    font-size: 12px;
+    height: 230px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+.news-box .side .download_info div{
+    text-align: left;
+    width: 258px;
+    height: 230px;
+    margin: auto;
+}
+.news-box .side .download_info .title{
+    font-size: 28px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.news-box .side .download_info .wp{
+    line-height: 20px;
+}
+.news-box .side .download_info .blue{
+    color: #2871d5;
+    float: right;
+}
+.news-box .side .download_info .download{
+    display: block;
+    width: 258px;
+    height: 66px;
+    background: url("../img/details/download_btn.png") 0 0 no-repeat;
+}
+.news-box .side .download_info .download:hover{
+    background-position: 0 -66px;
+}
+.news-box .side .news_rank{
+    margin-bottom: 20px;
+    border: 1px solid #dbdbdb;
+    height: 390px;
+}
+.news-box .side .news_rank h3{
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    color: #373737;
+    padding-left: 15px;
+    border-bottom: 1px solid #ece7e7
+}
+.news-box .side .news_rank ul{
+    display: block;
+    padding: 10px;
+}
+.news-box .side .news_rank ul li{
+    margin: 5px auto;
+}
+.news-box .side .news_rank ul li span{
+    display: block;
+    float: left;
+    width: 17px;
+    height: 17px;
+    margin: 3px 10px 0 0;
+    background: #479ceb;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    line-height: 17px;
+}
+.news-box .side .news_rank ul li a{
+    color: #373737;
+    font: 14px/1.5 \5FAE\8F6F\96C5\9ED1, Tahoma;
+}
+.news-box .side .news_rank ul li a:hover{
+    color: #2771fa;
+    text-decoration: underline;
+}
+.news-box .side .code{
+    width: 300px;
+    height: 116px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 42px;
+    font-size: 12px;
+    line-height: 1.8em;
+    text-align: center;
+    padding: 15px 0;
+    background: #f6f6f6;
+}
+.footer p a{
+    color: #565656;
+    padding: 0 10px;
+    font-size: 12px;
+}
+.footer p a:hover{
+    text-decoration: underline;
+}
+.footer .copyright{
+    color: #9E9E9E;
+    font-size: 12px;
+}
